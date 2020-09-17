@@ -2,4 +2,4 @@
 vowelRemover=str=>str.remove('[aeiou]/ig','')
 
 //js function to find whether a number is a perfect square
-perfectSquare=num=>num>=0 && num%1===0
+perfectSquare=num=>num>=0 && Math.sqrt(num)%1===0
